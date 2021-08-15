@@ -1,4 +1,4 @@
 # AulaWeb
  Projetos para as aulas web
  
-Os projetos nessa são pasta para a Web
+Os projetos nessa pasta para a aula Web
