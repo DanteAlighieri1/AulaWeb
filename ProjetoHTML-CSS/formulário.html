@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body{
+            border: 0px;
+            padding: 0px;
+        }
+        .cabeca{
+            /*width e height coloquei 100vmax para pegar 100% da pagina sem que outro
+            objeto possa influenciar no seu tamanho
+            display:flex; -- ele poderar de moviemntar a vontade.
+            justify-content: center; -- qualquer objeto centralizado
+            aligh-items: center; -- para centralizar com o topo da página.*/
+
+            width: 100vmax;
+            height: 100vmax;
+            background-color: darkmagenta;
+            display: flex;
+            
+            justify-content: center;
+            align-items: center
+        }
+        .formulario{
+            height: 800px;
+            width: 600px;
+            background-color: cornflowerblue;
+            display: flex;
+            border-radius: 10%;
+        }
+        .text{
+            text-align: center;
+        }
+    </style>
+    <title>Formulário</title>
+</head>
+<body>
+    <div class="cabeca">
+        
+        <div class="formulario">
+            <form action="">
+                <fieldset>
+                    <label for="nome"><strong>nome</strong></label>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
