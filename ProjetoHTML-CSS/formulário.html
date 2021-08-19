@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <style>
       body {
+        margin: 0;
         border: 0px;
         padding: 0px;
         background-image: url(https://1b.org.br/primeirabatista/wp-content/uploads/2019/10/background-montanhas-summit-campo-grande-ms-2019.jpg);
@@ -26,12 +27,12 @@
         margin-top: 1em;
       }
       label {
-    /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
+        /*Para ter certeza que todas as labels tem o mesmo tamanho e estão propriamente alinhadas */
         display: inline-block;
         width: 90px;
         text-align: right;
-    }
-        input, textarea {
+      }
+      input, textarea {
         /* Para certificar-se que todos os campos de texto têm as mesmas configurações de fonte. Por padrão, textareas ter uma fonte monospace*/
         font: 1em sans-serif;
 
@@ -41,58 +42,87 @@
         box-sizing: border-box;
 
         /* Para harmonizar o look & feel das bordas nos campos de texto*/
-        border: 1px solid rgb(85, 11, 11);
-    }
-        input:focus, textarea:focus {
+        border: 3px solid rgb(0, 0, 0);
+      }
+      input:focus, textarea:focus {
         /* Dar um pouco de destaque nos elementos ativos */
         border-color: #000;
-        border: 3px;
-    }
-        textarea {
+        
+      }
+      textarea {
         /* Para alinhar corretamente os campos de texto de várias linhas com sua label*/
         vertical-align: top;
-
+        border: 3px solid;
         /* Para dar espaço suficiente para digitar algum texto */
         height: 5em;
 
         /* Para permitir aos usuários redimensionarem qualquer textarea verticalmente. Ele não funciona em todos os browsers */
         resize: vertical;
-    }
-    .button {
-    /* Para posicionar os botões para a mesma posição dos campos de texto */
-    padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
-    border-radius: 5%;
-    }
-    button {
-            /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
-            margin-left: .5em;
-    }
-
+      }
+      .button {
+        /* Para posicionar os botões para a mesma posição dos campos de texto */
+        padding-left: 90px; /* mesmo tamanho que os elementos do tipo label */
+        border-radius: 10%;
+        background-color: rgba(6, 57, 99, 0.568);
+      }
+      button {
+        /* Esta margem extra representa aproximadamente o mesmo espaço que o espaço entre as labels e os seus campos de texto*/
+        margin-left: 0.5em;
+        background-color: rgba(6, 57, 99, 0.568);
+        border-radius: 10%;
+      }
+      .enviar {
+        height: 30px;
+        width: 80px;
+        background-color: rgba(44, 120, 182, 0.486);
+        border: 3px solid;
+        -webkit-border-radius: 6px;
+        -moz-border-radius: 6px;
+        border-radius: 6px;
+      }
+      .rodape{
+        width: 100vmax;
+        height: 16vmax;
+        background-color: rgba(63, 58, 58, 0.76);
+        
+      }
     </style>
     <title>Formulário</title>
   </head>
   <body>
     <form action="#local para onde você enviar" method="GET">
+      <img src="cadastro.png" alt="cadastro" />
+      <h2>Preencha o formulário</h2>
 
       <div>
         <label for="nome">Nome:</label>
-        <input type="text" id="text" />
+        <input type="text" id="text" placeholder="Nome" />
       </div>
-
+      <div>
+        <label for="celular">Celular</label>
+        <input type="text" id="celular" placeholder="+XX (XX)XXXX-XXXX" />
+      </div>
       <div>
         <label for="email">E-mail</label>
-        <input type="text" id="email" />
+        <input type="text" id="email" placeholder="seunome@email.com" />
       </div>
 
       <div>
         <label for="Area_de_text">Area de text</label>
-        <textarea>Por padrão, este elemento será preenchido com este texto </textarea>
+        <textarea placeholder="Sua opnião"></textarea>
+      </div>
+
+      <div>
+        <input type="submit" class="enviar" onclick="Enviar();" value="Enviar"/>
+
       </div>
       
-      <div>
-          <img src="cadastro.png" alt="cadastro">
-          <button type="submit">Enviar</button>
-      </div>
     </form>
+      <div class="rodape">
+        <h2>linguagens usadas:</h2>
+         <img  alt="Rafa-HTML" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg">
+         <img  alt="Rafa-CSS" height="30" width="40" src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg">
+
+      </div>
   </body>
 </html>
