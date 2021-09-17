@@ -3,9 +3,8 @@ body{
 	background-image: url('img/revolução_francesa.jpg');
 	
 }
-.background-image{
-	filter: blur(7px);
-	opacity: 0.6;
+.fundo{
+	
 }
 #Rev_fran{
 	border-radius: 50%;
