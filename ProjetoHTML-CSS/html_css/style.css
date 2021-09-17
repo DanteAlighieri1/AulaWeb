@@ -1,0 +1,21 @@
+body{
+	margin: 0%;
+	background-image: url('img/revolução_francesa.jpg');
+	
+}
+.background-image{
+	filter: blur(7px);
+	opacity: 0.6;
+}
+#Rev_fran{
+	border-radius: 50%;
+	height: 400px;
+	width: 350px;
+
+}
+article{
+	background-color: rgba(255, 185, 128, 100);
+	width: 400px;
+	float: right;
+	margin-left: 5%;
+}
