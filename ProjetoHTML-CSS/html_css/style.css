@@ -1,20 +1,37 @@
-body{
-	margin: 0%;
-	background-image: url('img/revolução_francesa.jpg');
-	
+body {
+  margin: 0%;
 }
-.fundo{
-	
-}
-#Rev_fran{
-	border-radius: 50%;
-	height: 400px;
-	width: 350px;
 
+#Rev_fran {
+  border-radius: 50%;
+  height: 150px;
+  width: 125px;
 }
-article{
-	background-color: rgba(255, 185, 128, 100);
-	width: 400px;
-	float: right;
-	margin-left: 5%;
+.container {
+  background-image: url("img/revolução_francesa_desfocado.png");
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  
+}
+.item {
+  background-color: #ec9e0c;
+  margin: 10px;
+  padding: 10px;
+  height: 550px;
+  width: 600px;
+  border-radius: 3%;
+}
+#rodape {
+  background-color: #000000;
+	position: absolute;
+	bottom: 0;
+  height: 30px;
+  width: 100%;
+  border-radius: 2%;
+}
+p#tamanho{
+  font-size: 16px
 }
