@@ -1,0 +1,22 @@
+h2{
+    color: brown;
+}
+.col-ms-3{
+    color: crimson;
+}
+.blog-footer{
+    padding: 2.5rem 0;
+    color: coral;
+    text-align: center;
+    background-color: rgb(170, 173, 173);
+    border-top: .05rem solid #383838;
+}
+.col-md-12{
+    background-color: cadetblue;
+}
+.barra-do-rodape{
+    width: 12%;
+    height: 23%;
+    color: #383838;
+    margin-left: 44%;
+}

@@ -1,0 +1,94 @@
+body {
+  background-image: url("img/Tomada_da_Bastilha_desfocado.png");
+  margin-left: 0%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+div .container {
+  
+}
+.Voltaire{
+    height: 160pt;
+    width: 125pt;
+    border-radius: 3%;
+    justify-items: center;
+    justify-content: center;
+}
+.titulo_principal{
+    flex-direction: row;
+    text-align: center;
+    
+}
+div .corpo {
+  text-align: center;  
+  width: 500pt;
+  height: 100vh;
+  background-color: chocolate;
+  border-radius: 3%;
+}
+.titulo{
+    text-align: center;
+}
+.explicacao {
+ 
+  
+}
+.citacao {
+    text-align: inherit;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 1.500em;
+}
+.sub{
+    font-style: italic;
+    text-align: right;
+    font-size: 1.000em;
+}
+
+/* Id*/
+
+
+div #container {
+  
+}
+#Voltaire{
+    height: 160pt;
+    width: 125pt;
+    border-radius: 3%;
+    justify-items: center;
+    justify-content: center;
+}
+#titulo_principal{
+    flex-direction: row;
+    text-align: center;
+    
+}
+div #corpo {
+  text-align: center;  
+  width: 500pt;
+  height: 100vh;
+  background-color: chocolate;
+  border-radius: 3%;
+}
+#titulo{
+    text-align: center;
+}
+#explicacao {
+ 
+  
+}
+#citacao {
+    text-align: inherit;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  font-size: 1.500em;
+}
+#sub{
+    font-style: italic;
+    text-align: right;
+    font-size: 1.000em;
+}
