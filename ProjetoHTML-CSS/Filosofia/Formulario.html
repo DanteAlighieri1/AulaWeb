@@ -22,23 +22,40 @@
 </head>
 <body>
 <div class="container">
-    <div class="d-flex justify-content-center text-white bg-dark mb-2">
-            <img src="img/filosofia_icone_site.png" width="60" height="60" alt="icone">
+    <div class="d-flex justify-content-center text-white bg-dark mb-2 rounded">
+            <a href="index.html" ><img src="img/phi.png" width="60" height="60" alt="icone"></a>
                 <div class="p-3">Formulário</div>
     
         </div>
-        <div class="col-md-12">
+        <div class="col-md-12 p-2 mb-3 rounded">
             <h4 class="mb-3">Cadastro</h4>
                 <form class="needs-validation">
                     <div class="row">
-                        <div class="col-md-6 mb-3">
+                        <div class="col-md-2 mb-3">
                             <label for="PrimeiroNome">Nome</label>
-                            <input type="text" class="form-control" id="primeiroNome" placeholder="" value="" required>
-                            <div class="invalid-feedback">
-                                É obrigatório inserir um nome válido.
-                            </div>
+                            <input type="text" class="form-control" id="primeiroNome" placeholder="Exemplo: Maria" value="" required>
+                           
+                        </div>
+                        <div class="col-md-3 mb-3">
+                             <label for="sobrenome">Sobrenome</label>
+                            <input type="text" class="form-control" id="primeiroNome" placeholder="Exemplo: Bittencourt" value="" required>
+                        </div>
+                        
+                    </div>
+                    <div class="row pt-2">
+                        <div class="col-md-5 mb-3">
+                            <label for="Email">Email</label>
+                            <input type="email" class="form-control" id="primeiroNome" placeholder="Exemplo: MariaBittencourt@gmail.com" value="" required>
                         </div>
                     </div>
+                    <div class="row">
+                        <div class="col-md-5 mb-3">
+                            <label for="endereco">Endereço</label>
+                            <input type="text" class="form-control" id="Endereco" placeholder="Rua:José Maria, 784" value="" required>
+                        </div>
+                    </div>
+                    <hr class="mb-4">
+                    <button type="submit" class="btn btn-primary btn-lg btn-block">confirmar</button>
                 </form>
         </div>
 </div>
@@ -47,6 +64,7 @@
 <p>
     Redes Sociais
 </p>
+<hr class="barra-do-rodape">
 <a href="https://www.linkedin.com/in/daniel-de-almeida-a8347b1b7/" target="_blank" rel="noopener noreferrer"><img src="img/linkedin.png" alt="linkedin"></a>
 <a href="https://github.com/DanteAlighieri1" target="_blank" rel="noopener noreferrer"><img src="img/github.png" alt="github"></a>
 <a href="https://www.youtube.com/channel/UCx8vWSksNjXH5aQ_W5h0DYw" target="_blank" rel="noopener noreferrer"><img src="img/youtube.png" alt="youtube"></a>
