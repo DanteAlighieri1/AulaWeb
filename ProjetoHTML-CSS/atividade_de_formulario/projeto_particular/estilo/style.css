@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Montagu+Slab:wght@600&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /*toda margin tera 0 e toda lateral tera 0*/
+}
+body{
+    width: 100%;
+    height: 100vh;
+    /*A tela tera 100% de lagura e altura*/
+    font-family: 'Montagu Slab', serif;
+    /*Tipo de fonte linkado ao google*/
+    background: linear-gradient(-45deg, #22F568,#14DED6,#378FFA);
+}
+#form{
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /*posicionamento do formulario que ficara no meio por isso usa a tag: top,left,transform(50,50)*/
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 60px;
+    width: min-content;
+    /*aqui vamos ter a cor do formulario, arredondamento das bordas com border-radius, o padding dara uma margem de 60px,
+    o min-content ira fazer com o formulario fica com suas bordas de ponta a ponta no nas laterais da pagina*/
+    align-items: center;
+    color: rgb(75, 74, 74);
+}
+.titulo{
+    font-size: 1.7em;
+    margin-bottom: 10%;
+    color:rgb(75, 74, 74);
+}
+.input{
+    min-width: 250px;
+    border-radius: 22px;
+    border: 3px rgb(75, 74, 74) solid;
+    padding: 5px;
+    margin: 0px, 0px, 12px, -5px;
+
+}
+.input i{
+    font-size: 1.2em;
+    padding: 5px;
+    background: -webkit-linear-gradient(-45deg, #22F568,#14DED6,#378FFA);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+.input input{
+    width: 80%;
+    border: none;
+    outline: none;
+    font-family:'Montagu Slab', serif;
+    font-size: 11pt;
+    transform: translateY(-10%);
+    color:rgb(75, 74, 74);
+}
+.btn{
+    margin-top: 10%;
+    width: 100%;
+    text-align: center;
+}
+.btn button{
+    font-family: 'Montagu Slab', serif;
+    background: -webkit-linear-gradient(-45deg, #22F568,#14DED6,#378FFA);
+    width: 100%;
+    height: 40px;
+    border: none;
+    font-size: 1.2em;
+    color: #fff;
+    border-radius: 20px;
+    outline: none;
+    cursor: pointer;
+}
+.btn button:hover{
+    background: -webkit-linear-gradient(-45deg, #22F568,#14DED6,#0573f8);
+}
